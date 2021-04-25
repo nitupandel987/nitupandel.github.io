@@ -1,0 +1,161 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color:lightgrey;
+}
+@media all and (min-width:700px ) {
+    p{
+        width:100%;
+    }
+    
+    
+}
+ .top{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+body{
+background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+}
+header { 
+    padding: 50px;
+    background-color: #6d76c5;
+    background-image: linear-gradient(135deg, #1cb166 58%, #9599E2 100%);
+    
+    
+    text-align: center;
+    color:white;
+    background-attachment: fixed;
+}
+.main{
+    font-size: 40px;
+    font-style:Apple Chancery, cursive;
+}
+nav{
+    display: flex;
+    background-color: rgb(37, 37, 21);;
+    /* overflow: hidden; */
+    position: sticky;
+ 
+    top: 0px;
+}
+nav a{
+    display: block;
+    text-decoration:none;
+    padding: 14px 20px;
+    
+    float: left;
+    color:white;
+}
+.menu-btn:hover{
+background-color:whitesmoke;
+color:black;
+
+}
+section{
+    /* background-color:lightgrey; */
+    text-align: center;
+    padding-top: 40px;
+    
+    
+}
+/* section :nth-child(even){
+    background-color:burlywood;
+} */
+.list{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-style: Apple Chancery, cursive;
+    text-decoration: underline;
+}
+p{
+    font-style: italic;
+    font-weight:600;
+    word-spacing: 0.10cm;
+    font-size:  20px;
+    text-align:center;
+  
+}
+#img1,#img2,#img3,#img4,#img5,#img6,#img7{
+    float: left;
+    margin: 15px;
+max-width: 300px;
+height: 350px;
+border-radius: 5px;
+padding:  0px 20px;
+
+padding: 1em;
+}
+.first,.second,.third,.forth,.fifth,.sixth,.seventh{
+    font-style: Palatino, URW Palladio L, serif;
+    font-size: 40px;
+    text-align: center;
+  text-decoration: underline;
+ 
+    padding: 10x;
+}
+.second,.third,.forth,.fifth,.sixth,.seventh{
+    clear: left;
+   
+}
+h3{
+    padding-bottom: 40px;
+}
+footer{
+    background-color: #333;
+    overflow: hidden;
+}
+footer a{
+    display: block;
+    text-decoration:none;
+    padding: 14px 20px;
+    
+    float: left;
+    color:white;
+
+}
+section h3{
+    text-align: center;
+    font-style: italic;
+}
+.myprofile{
+    border-radius: 50%;
+}
+.login{
+    margin-left: auto;
+}
+@media screen  and (max-width:700px){
+   footer, nav{
+        flex-direction: column;
+        text-align: center;
+        padding:10px 0px;
+    }
+    .login{
+        margin-left:0;
+    }
+    
+}
+section h2 span{
+text-decoration: underline;
+}
+.name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+
